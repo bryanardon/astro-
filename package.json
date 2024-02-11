@@ -1,0 +1,23 @@
+{
+  "name": "astro-",
+  "version": "1.0.0",
+  "description": "Parser for the language astro++",
+  "type": "module",
+  "main": "astropp.js",
+  "scripts": {
+    "test": "c8 mocha"
+  },
+  "keywords": [
+    "compiler",
+    "ohm"
+  ],
+  "author": "bryanardon",
+  "license": "MIT",
+  "devDependencies": {
+    "c8": "^9.1.0",
+    "mocha": "^10.3.0"
+  },
+  "dependencies": {
+    "ohm-js": "^17.1.0"
+  }
+}
